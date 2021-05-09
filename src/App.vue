@@ -1,27 +1,25 @@
 <template>
-  <div id="app">
-    <SittingInARoom/>
-  </div>
+  <v-app>
+    <v-main>
+      <v-container>
+        <sitting-in-a-room/>
+      </v-container>
+    </v-main>
+  </v-app>
 </template>
 
 <script>
-import SittingInARoom from './components/SittingInARoom.vue'
+import SittingInARoom from './components/SittingInARoom.vue';
 
 export default {
   name: 'App',
+
   components: {
     SittingInARoom
-  }
-}
-</script>
+  },
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
+  data: () => ({
+    //
+  }),
+};
+</script>
