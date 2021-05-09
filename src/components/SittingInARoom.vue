@@ -1,8 +1,8 @@
 <template>
   <div class="room">
     <div class="text">
-      <div class="headline text-h2">I am sitting in a room</div>
-      <p class="full-text text-justify text-h4 font-weight-light">
+      <div class="headline text-h4 text-sm-h2">I am sitting in a room</div>
+      <p class="full-text text-justify text-sm-h4 font-weight-light text-body">
         different from the one you are in now. I am recording the sound of my
         speaking voice and I am going to play it back into the room again and
         again until the resonant frequencies of the room reinforce themselves so
